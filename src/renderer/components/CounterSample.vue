@@ -3,11 +3,8 @@
 </template>
 
 <script>
-  import SystemInformation from './LandingPage/SystemInformation'
-
   export default {
     name: 'counter-sample',
-    components: { SystemInformation },
     methods: {
       count () {
         console.log(this.$store.dispatch('someAsyncTask'))
