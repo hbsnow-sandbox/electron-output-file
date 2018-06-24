@@ -8,7 +8,7 @@ export default new Router({
     {
       path: '/',
       name: 'landing-page',
-      component: require('@/components/CounterSample').default
+      component: require('@/components/OutputFile').default
     },
     {
       path: '*',
