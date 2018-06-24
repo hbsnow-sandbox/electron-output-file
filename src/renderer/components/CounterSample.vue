@@ -7,7 +7,7 @@
     name: 'counter-sample',
     methods: {
       count () {
-        console.log(this.$store.dispatch('someAsyncTask'))
+        this.$store.dispatch('someAsyncTask')
       }
     }
   }
